@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="Name">Name:</label>
+            <input type="text" id="Name"><br><br>
+        <label for="Password">Password:</label>
+            <input type="password" id="Password" required="true"><br><br>
+         Gender:-
+        <label for="male">Male</label>         <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="radio" id="male" name="gender" value="Male"> 
+        <label for="female">Female</label>         <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="radio" id="female" name="gender" value="Female">
+        <label for="other">Other</label>       <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="radio" id="other" name="gender" value="Other"><br><br>
+        <label for="country">Select Country :-</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="US">US</option>
+            <option value="RUS">RUSIA</option>
+        </select> <br><br>
+            Hobbies:-
+        <label for="Cricket">Cricket</label>        <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="checkbox" id="Cricket" name="game" value="Cricket">
+        <label for="Hockey">Hockey</label>      <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="checkbox" id="Hockey" name="game" value="Hockey">
+        <label for="Kabbadi">Kabbadi</label>        <!--Label Madhe Label,For,Id,Value Same Pahije-->
+            <input type="checkbox" id="Kabbadi" name="game" value="Kabbadi">   <br><br>
+        <label for="date">Date:</label>
+            <input type="date" id="date"><br><br>
+         <label for="file">File:</label>
+            <input type="file" id="file"><br><br>
+         <label for="color">Color:</label>
+            <input type="color" id="color"><br><br>
+         <label for="range">Price Range:</label>
+            <input type="range" id="range"><br><br>
+         <label for="button">Button:</label>
+            <input type="button" id="button" value="Clicked"><br><br>
+         <input type="submit">
+    </form>
+</body>
+</html>
